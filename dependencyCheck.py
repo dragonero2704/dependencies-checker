@@ -3,7 +3,7 @@ import os
 
 def depCheck(file: str, debug=False, promptBeforeInstall=True, consoleMessage="Some modules are missing. Do you want to install them? [Y/n]: "):
     """
-    depCheck() should be called before your imports, so that it can install if they are not present at runtime
+    depCheck() should be called BEFORE your imports, so that it can install them if they are not present at runtime
 
     'file' should be the path to the file that you want to check
     dependencies\n
